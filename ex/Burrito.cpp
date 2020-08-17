@@ -1,0 +1,6 @@
+#include "Burrito.h"
+#include <iostream>
+using namespace std;
+Burrito::Burrito(){
+  cout<<"I'm a banana"<<endl;
+}
