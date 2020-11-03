@@ -2,7 +2,9 @@
 #include<vector>
 #include<queue>
 #include<set>
+#include<unordered_set>
 #include<map>
+#include<unordered_map>
 #include<stack>
 #include<queue>
 using namespace std;
@@ -43,6 +45,16 @@ int main(){
     cout<<it->first<<endl;
   }
   //set.emplace_back()
+  cout<<"================================"<<endl;
+  unordered_set<int> s11;
+  s11.insert(1);
+  s11.insert(2);
+  s11.insert(2);
+  for(auto e:s11) cout<<e<<endl;
+  cout<<"================================"<<endl;
+  cout<<"================================"<<endl;
+  cout<<"================================"<<endl;
+  cout<<"================================"<<endl;
 
   return 0;
 }

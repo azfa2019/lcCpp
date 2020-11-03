@@ -2,19 +2,29 @@
 #include<vector>
 #include<queue>
 #include<set>
-#include<unordered_map>
 #include<map>
 #include<stack>
 #include<queue>
+#include<algorithm>
+#include <numeric>
+#include <climits>
+#include <sstream>
+#include <memory>
 using namespace std;
-
+  template<typename T>
+void showVector(vector<T> g) 
+{ 
+  for (auto it = g.begin(); it != g.end(); ++it) 
+    cout << *it<<" "; //'\t' ; 
+    cout << '\n'; 
+} 
+class Solution0{
+  public:
+};
 int main(){
-  multiset<pair<int,int>> ms{{2,3},{4,5}};
+  Solution0 s0;
+  for(int i=0;i<-1;i++) cout<<i<<endl;
   cout<<"================================"<<endl;
-  unordered_map<int,int>m;
-  auto p1=m.emplace(1,10).first;
-  cout<<p1->first<<endl;
-  cout<<p1->second<<endl;
   cout<<"================================"<<endl;
   cout<<"================================"<<endl;
   cout<<"================================"<<endl;
